@@ -1,0 +1,12 @@
+Package: VGheatmap
+Type: Package
+Title: Creates Heat Map Graphics for Insurgency (Source Engine FPS)
+Version: 0.0.05
+Author: Kenneth Buker
+Maintainer: <KCIV4@att.net>
+Description: Asks for an import of coordinate data, and will display this data in a heatmap against map images from Insurgency using GGplot2. The theme and format are tailored for 1024x1024 background image, but this can be changed if needed.
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Depends: jpeg,ggplot2,cowplot, R (>= 2.10)
+Imports: grid,jpeg,ggplot2,cowplot
